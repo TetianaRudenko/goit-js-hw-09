@@ -16,3 +16,82 @@ img {
   display: block;
   max-width: 100%;
 }
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 194, 194, 0.5);
+}
+
+.input-date-block {
+  position: fixed;
+  top: 60px;
+  width: 220px;
+  height: 110px;
+  background: #f7f8a4;
+  box-shadow: 0 0 40px rgba(20, 89, 89, 0.5), 0 0 60px rgba(20, 89, 89, 0.5);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+
+.input-date-block div input {
+  border: none;
+  outline: none;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(2, 194, 194, 0.5);
+}
+
+.input-date-block div button {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+
+
+.timer {
+  display: flex;
+}
+
+.timer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background: #1d1e22;
+  box-shadow: 0 0 4px #1d1e22, 0 0 6px #1d1e22;
+
+}
+
+.timer span {
+  text-align: center;
+}
+
+.timer span:nth-child(1) {
+  color: #02c2c2;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.timer span:nth-child(2) {
+  color: #f7f8a4;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
